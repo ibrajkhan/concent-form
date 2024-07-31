@@ -1,0 +1,376 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+.navbar__content {
+  background-color: #21487d !important;
+  border-bottom: 2px solid orange;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+h2 {
+  color: #21487d;
+  font-size: 27px;
+  text-align: center;
+  padding-bottom: 20px;
+
+  font-weight: bold;
+}
+h3 {
+  font-size: 21px;
+  color: #21487d;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.navbar__content {
+  height: 18vh;
+}
+.text__container {
+  padding: 4% 3%;
+  margin-top: 18vh;
+}
+ul > li,
+ol > li {
+  color: #666;
+  padding-top: 10px;
+  font-size: 17px;
+}
+h4 {
+  color: #21487d;
+  font-size: 19px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+p {
+  color: #666;
+  font-size: 17px;
+}
+.seno__form__heading {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/* * {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  height: 18vh;
+  background-color: #21487d;
+  border-bottom: 2px solid orange;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.first_img {
+} */
+.form {
+  padding: 30px 50px;
+  overflow: hidden;
+}
+.img__logo {
+  padding: 20px 10px;
+}
+.term__conditions__pdf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+.term__conditions__pdf > img {
+  border: 2px solid #21487d;
+  margin-bottom: 25px;
+}
+
+.room_reservation_text {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #21487d;
+}
+/* .navbar__main.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar__main .nav-dropdown .nav-dropdown {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  z-index: 1000;
+} */
+
+.form_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  /* padding: 50px 60px; */
+}
+
+form {
+  border: 1px solid #21487d;
+  padding: 50px;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgb(245, 245, 245);
+}
+
+label {
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgb(97, 97, 97);
+}
+
+/* input {
+  width: 95.5%;
+  padding: 1% 2%;
+} */
+#Phone,
+#email,
+#Name {
+  width: 100%;
+  padding: 1% 2%;
+}
+
+.submit {
+  padding: 6px 10px;
+  background-color: white;
+  color: orange !important;
+  border: none;
+  font-size: 15px;
+  text-align: center;
+  width: 150px;
+  cursor: pointer;
+  display: block;
+  border: 1.5px solid orange;
+  border-radius: 2px;
+  margin-top: 25px;
+}
+.click__here {
+  color: orange;
+  text-decoration: none;
+}
+.click__here:hover {
+  text-decoration: underline;
+}
+
+.submit:hover {
+  color: white !important;
+  background-color: red;
+  border: 1px solid red;
+}
+
+.required_field {
+  color: red;
+  font-size: 16px;
+}
+
+.non_indian {
+  border: 2px solid red;
+  width: fit-content;
+  width: 100%;
+  padding: 10px 0px 30px 10px;
+  margin-top: 35px;
+}
+
+.non_indian > p {
+  font-weight: bold;
+  font-size: 16.5px;
+  margin: 10px 0px 10px 0px;
+  text-decoration: underline;
+}
+
+.non_indian > input {
+  width: 98%;
+}
+
+.term_condition {
+  padding: 50px 5vw;
+  background-color: #21487d;
+  border-top: 2px solid orange;
+  color: white;
+}
+
+.term_condition > h3 {
+  font-size: 30px;
+}
+
+.term_condition_ul {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.term_condition > ul > li {
+  font-size: 16px;
+  margin-bottom: 08px;
+}
+
+.cancel {
+  background-color: white;
+  color: black;
+}
+footer {
+  background-color: #21487d;
+  color: white;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid orange;
+}
+
+.center_footer {
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h6 {
+  font-size: 17px;
+  text-align: center;
+}
+
+.footer_content > p {
+  font-weight: bold;
+  position: relative;
+  top: 10px;
+  font-size: 15px;
+}
+
+.query > div > h3 {
+  font-size: 30px;
+}
+.bold_query {
+  font-weight: bold;
+}
+p > a {
+  color: white !important;
+  text-decoration: none;
+}
+.sarthak {
+  font-size: 20px;
+  text-align: center;
+}
+.same {
+  text-align: center;
+  font-size: 16px;
+}
+.travel_ind img {
+  width: 100%;
+  height: 75vh;
+}
+.same > a:hover {
+  text-decoration: underline;
+}
+.form_seen {
+  display: block;
+}
+.form_hiden {
+  display: none;
+}
+.errorMsg {
+  color: red;
+  position: relative;
+  display: block;
+  padding-left: 5px;
+}
+label {
+  font-size: 14.5px;
+}
+.termsLabel {
+  margin-left: 10px;
+  /* margin-bottom: 5px; */
+}
+.termsLabel > a {
+  /* color: #21487d; */
+  text-decoration: none;
+}
+.termsLabel > a:hover {
+  color: #21487d;
+  text-decoration: underline;
+}
+
+@media (max-width: 765px) {
+  .content__form__text {
+    padding: 5%;
+  }
+  h2 {
+    font-size: 23px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  p,
+  ul > li,
+  ol > li {
+    font-size: 15px;
+  }
+  .form_input {
+    padding: 30px 0px;
+  }
+
+  form {
+    padding: 20px 20px;
+    width: 100%;
+  }
+
+  .form {
+    padding: 30px 20px;
+  }
+
+  select {
+    padding: 2% 2%;
+    width: 100%;
+  }
+  #Phone,
+  #email,
+  #Name {
+    width: 98%;
+    padding: 1.5% 2%;
+  }
+  .errorMsg {
+    font-size: 13px;
+  }
+  h6 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 530px) {
+  .room_reservation_text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 21px;
+  }
+  h6 {
+    font-size: 14px;
+  }
+  /* .text__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } */
+}
